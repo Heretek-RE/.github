@@ -8,17 +8,16 @@ This org hosts scrubbed, vendor-neutral public versions of the Heretek reverse-e
 
 | Repo | Purpose |
 |---|---|
-| [RE-Library](https://github.com/Heretek-RE/RE-Library) | Curated markdown knowledge base for reverse engineering. Astro site + MCP server. |
+| [RE-Library](https://github.com/Heretek-RE/RE-Library) | Curated knowledge base for reverse engineering. Astro site + MCP server. Includes engines/, storefronts/, and protection/ catalogs. |
 | [Android-RE](https://github.com/Heretek-RE/Android-RE) | APK triage, Frida hooking, MASVS-aligned reporting. 4 Python MCP servers + 1 TypeScript bridge. |
-| [RE-UNLEASHED](https://github.com/Heretek-RE/RE-UNLEASHED) | Per-engine, per-storefront, per-protection RE catalog with vendor attribution. |
 | [RE-AI](https://github.com/Heretek-RE/RE-AI) | The agent-space monorepo that orchestrates the per-MCP repos. |
 | [RE-BREAKER](https://github.com/Heretek-RE/RE-BREAKER) | Bypass primitives and entitlement-emulation toolset. AGPL-3.0 + Offensive-Research-Use Clause. |
 | `re-<name>` (30 repos) | Per-MCP-server repos, split out of the RE-AI monorepo for independent versioning. |
 
 ## License posture
 
-- **Analytical tooling** (RE-Library, Android-RE, RE-AI agent-space, the analytical `re-*` MCP repos): MIT.
-- **Bypass-adjacent tooling** (RE-BREAKER, the seven bypass-adjacent `re-*` MCP repos): AGPL-3.0 + Offensive-Research-Use Clause. The `--license-acknowledge` CLI flag must be set before bypass primitives will execute.
+- **Analytical tooling** (RE-Library, Android-RE, RE-AI agent-space, all 31 `re-*` MCP repos): MIT.
+- **Bypass tooling** (RE-BREAKER): AGPL-3.0 + Offensive-Research-Use Clause. The `--license-acknowledge` CLI flag must be set before bypass primitives will execute.
 
 ## Contributing
 

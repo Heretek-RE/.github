@@ -9,7 +9,6 @@ security fixes to the `main` branch of each repo.
 |---|---|
 | Heretek-RE/RE-Library | ✅ |
 | Heretek-RE/Android-RE | ✅ |
-| Heretek-RE/RE-UNLEASHED | ✅ |
 | Heretek-RE/RE-AI | ✅ |
 | Heretek-RE/RE-BREAKER | ✅ |
 | Heretek-RE/re-* (per-MCP) | ✅ |
@@ -60,7 +59,11 @@ The following are explicitly out of scope for security advisories:
 
 ## Scope of the offensive-research-use clause
 
-The `LICENSE-OFFENSIVE.md` terms in the bypass-adjacent repos (RE-BREAKER and
-the seven bypass-adjacent per-MCP repos) limit the authorized use of those
-tools. If you believe a user is violating those terms, file a public issue in
-the relevant repo with the violation details. The maintainers will review.
+RE-BREAKER carries a `LICENSE-OFFENSIVE.md` that limits the authorized use
+of the bypass tools to contexts where the analyst has the legal right to
+reverse-engineer the target. If you believe a user is violating those terms,
+file a public issue in the relevant repo with the violation details. The
+maintainers will review.
+
+The per-MCP repos (re-capa, re-rizin, re-yara, etc.) are analytical tooling
+licensed under MIT. They do not carry the offensive-research-use clause.
